@@ -25,6 +25,7 @@
 
 	.buttom-orange {
 		background-color: #F5933C;
+		color: #FFF;
 	}
 
 	button {
