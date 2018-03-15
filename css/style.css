@@ -1,0 +1,78 @@
+body {
+        background-image: url(../img/bg-mac.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 15%;
+    }
+    ul {
+        list-style: none;
+        padding: 0!important;
+        margin: 0;
+    }
+
+    form {
+        max-width: 170px;
+        box-shadow: 1px 1px 10px 0px rgba(0,0,0,.5);
+        position: relative;
+    }
+
+    .buttom-orange {
+        background-color: #F5933C;
+        color: #FFF;
+    }
+
+    button {
+        border: 0.1px solid rgba(165, 165, 165, 0.3);
+        background-color: #E0E0E0;
+        color: #6D6D6D;
+        font-family: 'Lato', sans-serif;
+        padding: 5px 0;
+    }
+
+    input {
+        background-color: #4c4c4cbd;;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+        font-size: 40px;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        border-radius: 3px 3px 0px 0px;
+    }
+
+    .balls {
+        background-color: #E65F5A;
+        width: 10px;
+        height: 10px;
+        position: absolute; 
+        top: 5px;
+        left: 5px;
+        border-radius: 50%; 
+        z-index: 2;
+    }
+
+    .balls:after {
+        content: "";
+        background-color: #59B76B;
+        width: 10px;
+        height: 10px;
+        position: absolute; 
+        top: 0px;
+        left: 15px;
+        border-radius: 50%; 
+    }
+
+    .balls:before {
+        content: "";
+        background-color: #F5C354;
+        width: 10px;
+        height: 10px;
+        position: absolute; 
+        top: 0px;
+        left: 30px;
+        border-radius: 50%; 
+        z-index: 2;
+    }
